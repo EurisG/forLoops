@@ -1,0 +1,130 @@
+body{
+   background: linear-gradient( #118DEA 0%, #C5C2BB 100%);
+}
+
+.headerContainer{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border: solid black;
+    border-style: double;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: rgb(223, 219, 219);
+}
+
+.headerTitle,
+ .headerMotto{
+    text-align: center;
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  border: solid white;
+  border-width: 5px;
+  margin: auto 20px;
+  margin-left: 330px;
+  width: 780px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+a{
+    color: white;
+    margin: 10px;
+}
+
+input{
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+}
+.shoeContainer{
+    border: solid rgb(223, 219, 219);
+    border-width: 5px;
+    margin: 70px;
+    width:auto 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+    margin: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nike{
+    border: solid black;
+    border-style:double;
+    border-width: 7px;
+    margin: 30px;
+    height: 200px;
+    width: 350px;
+    background-image: url(../images/nike.jpeg);
+    background-size:cover;
+}
+
+.jordan{
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+    border-style:double;
+    border-width: 7px;
+    margin: 30px;
+    margin-top: 20px;
+    height: 250px;
+    width: 350px;
+    background-image: url(../images/jordan.jpeg);
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+
+.adidas{
+    border: solid black;
+    border-style:double;
+    border-width: 7px;
+    margin: 30px;
+    margin-top: 20px;
+    height: 200px;
+    width: 350px;
+    background-image: url(../images/adidas.jpeg);
+    background-size:cover;
+}
+
+.puma{
+    border: solid black;
+    background-color: white;
+    border-style:double;
+    border-width: 7px;
+    margin: 30px;
+    margin-top: 20px;
+    height: 200px;
+    width: 350px;
+    background-image: url(../images/puma.jpeg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+button{
+color:white;
+background-color: black;
+margin-left: 40px;
+padding: 7px;
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+
+.me{
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
